@@ -19,7 +19,7 @@ export default async function handler(
   const koiosProvider = new KoiosProvider("api");
   const paymentToken =
     "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61446a65644d6963726f555344";
-  const paymentTokenQuantity = 2000000;
+  const paymentTokenQuantity = 192000000;
   const bankWalletAddress =
     "addr1qyjtjxjkhskglfefwe9kanvk7wczft0q6ngyhyh9es0km27q3upff6k44dawpnj5w8w5suq8jxff0w54yv90yte9u46st87vk3";
 
@@ -67,8 +67,7 @@ export default async function handler(
 
   const assetMetadata: AssetMetadata = {
     name: "Basic Tee 6-Pack",
-    image:
-      "https://ecommerce-template.meshjs.dev/product-page-02-secondary-product-shot.jpg",
+    image: "https://ecommerce-template.meshjs.dev/product.jpg",
     mediaType: "image/jpg",
     description: [
       "The 6-Pack includes two black, two white,",
