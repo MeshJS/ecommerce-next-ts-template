@@ -3,7 +3,7 @@ import { CardanoWallet } from "@meshsdk/react";
 
 export default function Navbar() {
   return (
-    <div className="bg-white">
+    <div className="bg-white z-50 fixed w-full">
       <header className="relative bg-white">
         <nav
           aria-label="Top"
