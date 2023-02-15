@@ -67,8 +67,9 @@ export default async function handler(
 
   const assetMetadata: AssetMetadata = {
     name: "Basic Tee 6-Pack",
-    image: "https://meshjs.dev/logo-mesh/mesh.png",
-    mediaType: "image/png",
+    image:
+      "https://ecommerce-template.meshjs.dev/product-page-02-secondary-product-shot.jpg",
+    mediaType: "image/jpg",
     description: [
       "The 6-Pack includes two black, two white,",
       " and two heather gray Basic Tees.",
